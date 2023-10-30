@@ -1,0 +1,42 @@
+:root{
+    --aval: #2C469B;
+    --narenji: #FF5722;
+}
+.pagelogin{
+    background-color: var(--aval);
+    background-image: url(../images/Frame-757.png);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loginlocation{
+    width: 30%;
+}
+input {
+    margin: 10px auto;
+    line-height: 48px;
+    border-radius: 16px;
+}
+.inputlogin{
+    width: 100%;
+    padding-right: 14px;
+}
+input.submitlogin {
+    width: 100%;
+    color: #fff;
+    background-color: var(--narenji);
+}
+input.submitlogin:hover {
+    background-color: var(--aval);
+    transition: 0.5s ease-in-out;
+}
+.loginlocation a{
+    text-decoration: none;
+    color: #fff;
+}
+.rememberChk{
+    color: #fff;
+    margin-right: 10px;
+}

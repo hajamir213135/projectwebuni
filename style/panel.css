@@ -1,0 +1,93 @@
+/* fonts */
+@font-face {
+    font-family: 'Samim';
+    src: url(../fonts/Samim/Samim.ttf);
+}
+@font-face {
+	font-family: 'Kalameh';
+	src: url('../fonts/Kalameh/woff2/KalamehWeb-Black.woff2') format('woff2'),
+		 url('../fonts/Kalameh/woff/KalamehWeb-Black.woff') format('woff');
+}
+:root{
+    --aval: #2C469B;
+    --narenji: #FF5722;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Samim';
+}
+body{
+    direction: rtl;
+}
+
+main{
+    display: flex;
+    position: relative;
+}
+main aside{
+    width: 300px;
+    height: 100vh;
+    position: fixed;
+    right: 0;
+    top: 0;
+    background-image: url(../images/Frame-757.png);
+    background-color: #2C469B;
+    padding-top: 20px;
+}
+main .content{
+    width: 100%;
+    padding-right: 310px;
+    padding-top: 20px;
+}
+/* aside ul {
+    list-style-type: none;
+    margin-top: 20px;
+    width: 60px;
+}
+aside li a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+} */
+.infouser {
+    padding-right: 5px;
+}
+.infouser span{
+    color: #fff;
+}
+span.username{
+    position: absolute;
+    top: 45px;
+    right: 104px;
+}
+span.userrole {
+    position: absolute;
+    top: 70px;
+    right: 104px;
+}
+ul.nav.nav-pills.flex-column.mb-auto {
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 8px;
+}
+.paneltitle{
+    display: inline;
+    margin-left: 1rem;
+}
+.infoblogs {
+    margin-top: 2rem;
+}
+.newkhabar{
+    margin-left: 1rem;
+}
+.infoblogs{
+    margin-left: 1rem;
+}
+.tox-notifications-container {
+    display: none !important;
+}
+.tableimage{
+    width: 10%;
+}

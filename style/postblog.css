@@ -1,0 +1,36 @@
+:root{
+    --aval: #2C469B;
+    --narenji: #FF5722;
+}
+.blog{
+    width: 80%;
+    margin: 20px auto;
+}
+.titleblog{
+    font-family: 'Kalameh';
+    font-size: 32px;
+    color:var(--aval);
+    width: 49%;
+}
+.imgshakhes {
+    display: flex;
+    justify-content: end;
+    margin-top: -50px;
+}
+.imgshakhes img{
+    width: 50%;
+    border-radius: 10px;
+}
+.des {
+    text-align: justify;
+    line-height: 32px;
+    padding-top: 20px;
+}
+.chekide {
+    position: absolute;
+    top: 31%;
+    text-align: justify;
+    color: #acacac;
+    width: 37%;
+    line-height: 32px;
+}
